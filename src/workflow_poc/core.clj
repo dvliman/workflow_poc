@@ -1,5 +1,5 @@
 (ns workflow-poc.core
-  (:require [overseer.worker :as overseer])
+  (:require [overseer.api :as overseer])
   (:gen-class))
 
 (def db-spec
